@@ -58,3 +58,80 @@ nav, ul, a {
 article>p {
     font-size: 24px;
 }
+
+/* adjacent sibling selector - selects the element that is the very next sibling to the selected element - if any existis */
+
+h3+ul {
+    border: 1px solid black;
+}
+
+/* Sibling selector */
+h3~p {
+    text-transform: uppercase;
+}
+
+/* Atribute selector */
+[href="treatoftheweek"] {
+    font-weight: bold;
+}
+
+[src$=".jpg"] {
+    border: 8px solid darkslategray;
+}
+
+/* Using pseudo classes */
+/* Styling navigation */
+
+nav ul a,
+nav ul a:link,
+nav ul a:visited {
+    background-color: antiquewhite;
+    /* horizontal, vertical, blur, spread, color */
+    box-shadow: -2px 2px 4px 2px black;
+}
+
+nav ul .current,
+nav ul a:hover,
+nav ul a:focus {
+    text-decoration: underline;
+}
+
+nav ul a:active {
+    box-shadow: 0 0 4px 2px black;
+}
+/* position selector */
+/* first-child and last-child */
+aside ul li:first-child {
+    font-weight: bold;
+}
+
+section ol li:last-child {
+    font-weight: bold;
+}
+
+/* Styling the table */
+table {
+    border-collapse: collapse;
+}
+
+/* nth-child selector - even/odd */
+tbody tr:nth-child(even) {
+    /* hex color value with 6 characters */
+    background-color: #d5836c;
+}
+
+table th:nth-child(n),
+table td:nth-child(n) {
+    border: 1px solid #000
+}
+
+/* using formula in nth-child selector */
+table td:nth-child(2n+1) {
+    background-color: rgba(0, 0, 0, 0.2 );
+}
+
+/* Specificity */
+/* Formula: inline style, ID, Class, Tag */
+head .title {
+    color: red;
+}
