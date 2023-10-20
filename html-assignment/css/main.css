@@ -21,7 +21,7 @@ ul {
     list-style-type: square;
 }
 
-#hobby-list li:nth-child(odd) {
+.hobby-list li:nth-child(odd) {
     background-color: palevioletred;
 }
 
@@ -35,7 +35,7 @@ nav a {
 
 nav ul a.current {
     background-color: pink;
-    border: 2px solid palevioletred;
+    border: 1px solid palevioletred;
 }
 
 nav ul a:hover{
