@@ -39,4 +39,7 @@ nav ul a:hover{
     background-color: palevioletred;
 }
 
-
+nav ul a:focus {
+    background-color: orange;
+    color: palegoldenrod;
+}
