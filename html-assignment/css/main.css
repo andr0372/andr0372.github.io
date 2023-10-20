@@ -29,13 +29,13 @@ nav ul {
     list-style: none;
 }
 
-nav ul a {
+nav a {
     text-decoration: none;
 }
 
 nav ul a.current {
     background-color: pink;
-    border: 1px violet;
+    border: 2px solid palevioletred;
 }
 
 nav ul a:hover{
