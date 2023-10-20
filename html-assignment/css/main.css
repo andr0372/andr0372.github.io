@@ -38,7 +38,7 @@ nav ul a.current {
     border: 1px solid palevioletred;
 }
 
-nav ul a:hover{
+nav ul a:hover {
     background-color: palevioletred;
 }
 
