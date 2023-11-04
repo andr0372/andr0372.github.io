@@ -1,7 +1,7 @@
 body {
     margin-top: 0%;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 22%;
+    margin-right: 22%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #AAD4CF;
 }
@@ -9,26 +9,31 @@ body {
 #header-img {
     position: absolute;
     top: 0;
-    left: 20%;
-    width: 60%;
+    left: 22%;
+    width: 56%;
+    z-index: 1;
 }
 
 .site-title {
     color: white;
-    font-weight: 500;
-    font-size: 42px;
-    padding: 130px;
+    font-weight: 400;
+    font-size: 72px;
+    padding: 60px;
+    padding-bottom: 0;
     text-align: center;
+    position: relative;
+    margin-top: 10%;
+    z-index: 2;
 }
 
 .nav li {
     text-align: center;
-    font-size: 24px;
+    font-size: 28px;
     font-weight: 500;
     list-style: none;
     display: inline-block;
     width: 30%;
-    padding: 15px;
+    margin-top: 40px;
 }
 
 nav ul a {
