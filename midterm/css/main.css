@@ -54,14 +54,15 @@ article {
 h2 {
     font-size: 32px;
     font-weight: 500;
-    margin-left: 20px;
+    margin-left: 10px;
+    margin-bottom: 15px;
 }
 
 #body-img {
     width: 250px;
     height: 250px;
     float: left;
-    margin-left: 20px;
+    margin-left: 10px;
     padding-bottom: 20px;
     padding-right: 20px;
 }
@@ -70,29 +71,33 @@ p {
     font-size: 16px;
     padding-top: 0;
     font-weight: 600;
-    margin: 20px;
+    margin: 10px;
 }
 
 h3 {
     font-size: 28px;
     font-weight: 500;
-    margin-left: 20px;
+    margin-left: 10px;
+    margin-bottom: 0%;
 }
 
-.facts-list li {
+.facts-list {
     font-size: 16px;
     font-weight: 600;
     margin-left: 0;
+    margin-top: 20px;
 }
 
 h4 {
     font-size: 28px;
     font-weight: 600;
-    margin-left: 20px;
+    margin-left: 10px;
+    margin-bottom: 15px;
 }
 
 fieldset {
-    margin: 20px;
+    margin: 10px;
+    margin-top: 0;
     padding-top: 30px;
     padding-bottom: 15px;
 }
