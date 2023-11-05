@@ -93,6 +93,51 @@ h4 {
 
 fieldset {
     margin: 20px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+
+label {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+input {
+    width: 98%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+
+}
+
+textarea {
+    width: 98%;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+h5 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+#yes, #no, #maybe {
+    display: inline-block;
+    width: 20px;
+}
+
+button {
+    margin-top: 10px;
+    font-size: 10px;
+    box-sizing: border-box;
+    border-width: 1px;
+    background-color: #D4E9E7;
+    height: 40px;
+    width: 50px;
+
 }
 
 footer {
