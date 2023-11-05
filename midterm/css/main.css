@@ -1,38 +1,41 @@
 body {
-    margin-top: 0%;
+    margin-top: 0;
     margin-left: 15%;
     margin-right: 15%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #AAD4CF;
 }
 
+.container {
+    position: relative;
+    width: 100%;
+}
+
 #header-img {
-    position: absolute;
-    top: 0;
-    left: 22%;
-    width: 56%;
+    width: 100%;
+    height: auto;
+    margin-top: 0;
     z-index: 1;
 }
 
 .site-title {
+    position: absolute;
+    margin-top: 0;
     color: white;
     font-weight: 400;
-    font-size: 72px;
-    padding: 60px;
-    padding-bottom: 0;
+    font-size: 66px;
     text-align: center;
-    position: relative;
     z-index: 2;
 }
 
 .nav li {
+    position: relative;
     text-align: center;
     font-size: 28px;
     font-weight: 500;
     list-style: none;
     display: inline-block;
     width: 30%;
-    margin-top: 20px;
 }
 
 nav ul a {
@@ -42,7 +45,6 @@ nav ul a {
 
 .container {
     background-color: #D4E9E7;
-    padding: 15px;
 }
 
 article {
@@ -50,14 +52,34 @@ article {
 }
 
 h2 {
-    font-size: 36px;
+    font-size: 32px;
     font-weight: 500;
+    margin-left: 20px;
 }
 
 #body-img {
     width: 250px;
     height: 250px;
     float: left;
+    padding-bottom: 20px;
     padding-right: 20px;
 }
 
+p {
+    font-size: 16px;
+    padding-top: 0;
+    font-weight: 600;
+    margin: 20px;
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+.facts-list li {
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 0;
+}
