@@ -23,6 +23,8 @@ body {
     font-weight: 400;
     font-size: 66px;
     /* text doesnt appear centered, needs to manually position it */
+    top: 150px;
+    left: 575px;
     z-index: 2;
 }
 
