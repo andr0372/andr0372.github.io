@@ -7,29 +7,31 @@ body {
     background-color: #AAD4CF;
 }
 
-/* Positions header image with id selector*/
-#header-img {
-    position: relative;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
+/* Styles h1 */
+h1 {
+    font-size: 72px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-/* Psitions h1 centered on image with class selector*/
-.site-title {
-    position: absolute;
+
+/* Positions header with class selector*/
+.header-container{
+    position: relative;
     text-align: center;
     color: white;
-    font-weight: 400;
-    font-size: 66px;
-    /* text doesnt appear centered, needs to manually position it */
-    top: 150px;
-    left: 575px;
-    z-index: 2;
+}
+
+/* Positions site title with class selector*/
+.site-title {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 /* styles nav list and border with class selector*/
 .nav li {
+    margin-top: -20%;
     text-align: center;
     font-size: 28px;
     font-weight: 500;
@@ -57,7 +59,7 @@ nav ul a {
 
 /* ajusts position of article */
 article {
-    margin-top: 5%;
+    margin-top: 40px;
 }
 
 /* Styles h2 */

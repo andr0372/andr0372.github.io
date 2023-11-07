@@ -223,3 +223,24 @@ table td:nth-child(2n+1) {
 head .title {
     color: red;
 }
+
+
+
+
+#header-img {
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+/* Psitions h1 centered on image with class selector*/
+.site-title {
+    position: absolute;
+    color: white;
+    font-weight: 400;
+    font-size: 66px;
+    /* text doesnt appear centered, needs to manually position it */
+    z-index: 2;
+}
