@@ -401,7 +401,7 @@ th {
       
     .us-text {
         float: left;
-        width: 50%; 
+        width: 60%; 
         box-sizing: border-box; 
     }
       
@@ -459,7 +459,7 @@ th {
         margin-top: 0;
     }
 
-    .team {
+    .teamc {
         background-color: #ffe6ac;
         
     }
