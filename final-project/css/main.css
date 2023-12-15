@@ -459,7 +459,8 @@ th {
         margin-top: 0;
     }
 
-    .teamc {
+    .card-1,
+    .card-2 {
         background-color: #ffe6ac;
         
     }
