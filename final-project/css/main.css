@@ -280,6 +280,7 @@ button {
     color: #c78c06;
 }
 
+/* Styles Form */
 .form {
     padding: 10px;
 }
@@ -309,6 +310,7 @@ th {
     background-color: #ffe6ac;
 }
 
+/* Styles Footer */
 .footer {
     margin-top: 20px;
     padding: 20px 0;
@@ -327,7 +329,11 @@ th {
     font-weight: 300;
 }
 
+
+/* Desktop Styles */
 @media screen and (min-width: 760px ) {
+
+    /* Styles nav for desktop */
     .nav-list li {
         display: inline-block;
         justify-content: space-evenly;
@@ -350,6 +356,8 @@ th {
         background-color: #222;
     }
 
+
+    /* Styles header for desktop */
     h1 {
         font-size: 100px;
         padding: 20px;
@@ -377,6 +385,8 @@ th {
         padding: 50px;
     }
 
+
+    /* Starts styling the main content  */
     .about-us {
         padding: 10px;
         margin-left: 80px;
@@ -409,6 +419,7 @@ th {
         max-width: 100%;
     }
 
+    /* Styles services cards */
     .our-services {
         padding: 80px;
         padding-top: 30px;
@@ -454,6 +465,7 @@ th {
         justify-content: space-between;
     }
 
+    /* Styles Team cards */
     .our-team {
         margin: 100px;
         margin-top: 0;
@@ -497,10 +509,13 @@ th {
         width: 100%;
     }
 
+    /* Starts styling contac us */
+
     #contact {
         margin-left: 100px;
     }
 
+    /* Adds grid to contact page and map */
     .contact-us {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -526,6 +541,7 @@ th {
         width: 100%;
     }
 
+    /* Styles Footer content */
     .copy {
         margin-left: 100px;
     }
