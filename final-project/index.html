@@ -6,51 +6,89 @@
     <title>HTML Mock-up</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/main.css">
+
+    <!-- Font Style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family
+    =Playfair+Display:ital,wght@0,400;0,600;1,400;1,600&family=Poppins:ital,
+    wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+
     <!-- Icon Links -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
 </head>
-<body>
+<body class="body">
     <!-- Site Header -->
     <div class="container">
-        <header>
-            <div class="header-container">
-                <img src="./images/logo.png" alt="logo">
-            </div>
-            <nav class="nav">
-                <ul class="nav-list">
-                    <li><a href="index.html" class="current">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Team</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-                <input type="text" placeholder="Search">
-                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
-            </nav>
-            <section class="welcome">
-                <h1> Welcome to Three Star Media</h1>
-                <img src="./images/main-banner.jpg" alt="main-banner">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Nulla facilisi morbi tempus iaculis. Id leo in vitae turpis. 
-                </p>
-                <a href="#connect-with-us" class="Connect">Connect with us</a>
-            </section>
-        </header>
+        <div class="header-container">
+            <header class="header">
+                <div class="card-nav">
+                <div class="logo">
+                    <img src="./images/logo.png" alt="logo">
+                </div>
+                    <nav class="nav">
+                        <ul class="nav-list">
+                            <li><a href="index.html" class="current home">Home</a></li>
+                            <li><a href="#" class="about">About Us</a></li>
+                            <li><a href="#" class="serv">Services</a></li>
+                            <li><a href="#" class="team">Team</a></li>
+                            <li><a href="#" class="contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                    <section class="search">
+                        <div class="box">
+                            <input type="text" placeholder="Search" class="text">
+                            <button type="submit" class="button"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </div>
+                    </section>
+                </div>
+
+                <section class="welcome">
+                    <div class="banner">
+                        <div class="box"></div>
+                            <h1> Welcome to Three Star Media</h1>
+                            
+                            <p class="white">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                                Nulla facilisi morbi tempus iaculis. Id leo in vitae turpis. 
+                            </p>
+                            <div class="connect-us">
+                                <a href="#connect-with-us" class="connect">Connect with us<i class="fas fa-caret-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                
+            </header>
+        </div>
         
         <!-- Starts Main Content -->
         <main class="content">
-
-            <section class="about-us">
-                <h2>About Us</h2>
-                <img src="./images/about-us.jpg" alt="about-us">
-                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Culpa distinctio minima voluptatum quia, aliquam ipsa delectus 
-                    voluptas saepe neque iure est inventore adipisci maxime eum illum 
-                    optio ipsam eius explicabo.
-                </p>
-            </section>
+        
+            <div class="about-card">
+                <section class="about-us">
+                    <div class="img-about">
+                        <img src="./images/about-us.jpg" alt="about-us" class="img-a">
+                    </div>
+                    <div class="us-text">
+                        <h2>About Us</h2>
+                        <div>
+                            <p class="us"> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Culpa distinctio minima voluptatum quia, aliquam ipsa delectus 
+                            voluptas saepe neque iure est inventore adipisci maxime eum illum 
+                            optio ipsam eius explicabo.
+                            </p>
+                            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Culpa distinctio minima voluptatum quia, aliquam ipsa delectus 
+                            voluptas saepe neque iure est inventore adipisci maxime eum illum 
+                            optio ipsam eius explicabo.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+            </div>
 
             <section class="our-services">
                 <h2>Our Services</h2>
@@ -58,63 +96,63 @@
                 <!-- Adds Cards to Services section -->
 
                 <div class="cards">
-                    <section class="card">
-                        <img src="./images/digital.jpg" alt="services">
+                    <section class="card services">
+                        <img src="./images/digital.jpg" alt="services" class="img">
                         <h3>Digital Transformation</h3>
                         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Dolorum corporis harum iste! Sint ullam ad id officia, 
                             qui vel pariatur cupiditate repellendus sit in, debitis 
                             omnis voluptatibus, dicta animi dolore?
                         </p>
-                        <a href="#digital" class="digital">Digital Plans</a>
+                        <a href="#digital" class="a-li">Digital Plans<i class="fas fa-caret-right"></i></a>
                     </section>
                     <!-- Closing Card -->
 
-                    <section class="card">
-                        <img src="./images/marketing.jpg" alt="marketing">
+                    <section class="card marketing">
+                        <img src="./images/marketing.jpg" alt="marketing" class="img">
                         <h3>Marketing</h3>
                         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Dolorum corporis harum iste! Sint ullam ad id officia, 
                             qui vel pariatur cupiditate repellendus sit in, debitis 
                             omnis voluptatibus, dicta animi dolore?
                         </p>
-                        <a href="#marketing" class="marketing">Marketing Plans</a>
+                        <a href="#marketing" class="a-li">Marketing Plans<i class="fas fa-caret-right"></i></a>
                     </section>
                     <!-- Closing Card -->
 
-                    <section class="card">
-                        <img src="./images/video.jpg" alt="video">
+                    <section class="card video">
+                        <img src="./images/video.jpg" alt="video" class="img">
                         <h3>Video Production</h3>
                         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Dolorum corporis harum iste! Sint ullam ad id officia, 
                             qui vel pariatur cupiditate repellendus sit in, debitis 
                             omnis voluptatibus, dicta animi dolore?
                         </p>
-                        <a href="#video" class="video">Video Plans</a>
+                        <a href="#video" class="a-li">Video Plans<i class="fas fa-caret-right"></i></a>
                     </section>
                     <!-- Closing Card -->
 
-                    <section class="card">
-                        <img src="./images/web.jpg" alt="web">
+                    <section class="card web">
+                        <img src="./images/web.jpg" alt="web" class="img">
                         <h3>Web Development</h3>
                         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Dolorum corporis harum iste! Sint ullam ad id officia, 
                             qui vel pariatur cupiditate repellendus sit in, debitis 
                             omnis voluptatibus, dicta animi dolore?
                         </p>
-                        <a href="#web" class="web">Web Plans</a>
+                        <a href="#web" class="a-li">Web Plans<i class="fas fa-caret-right"></i></a>
                     </section>
                     <!-- Closing Card -->
 
-                    <section class="card">
-                        <img src="./images/print.jpg" alt="print">
+                    <section class="card print">
+                        <img src="./images/print.jpg" alt="print" class="img">
                         <h3>Print</h3>
                         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                             Dolorum corporis harum iste! Sint ullam ad id officia, 
                             qui vel pariatur cupiditate repellendus sit in, debitis 
                             omnis voluptatibus, dicta animi dolore?
                         </p>
-                        <a href="#print" class="print">Print Plans</a>
+                        <a href="#print" class="a-li">Print Plans<i class="fas fa-caret-right"></i></a>
                     </section>
                     <!-- Closing Card -->
                 </div>
@@ -123,88 +161,107 @@
 
             <!-- Adds smaller banner -->
             <section class="vision-banner">
-                <div class="banner">
-                    <h3>Our Vision</h3>
-                    <img src="./images/vision.jpg" alt="vision">
-                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                <div class="v-banner">
+                    <h2 class="white">Our Vision</h2>
+                    
+                    <p class="white"> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                         Porro facere nostrum soluta a laboriosam nam sunt sint 
                         quos? Quo maxime eos itaque amet odio molestiae. Fugit 
                         cupiditate veniam officia voluptatum.
                     </p>
-                    <a href="#learn-more" class="learn">Learn More</a>
+                    <a href="#learn-more" class="learn">Learn More<i class="fas fa-caret-right"></i></a>
                 </div>
             </section>
 
             <section class="our-team">
                 <h2>Our Team</h2>
                 <div class="team-cards">
-                    <section class="team-card">
-                    <img src="./images/john.jpg" alt="john doe">
-                        <h3>John Doe</h3>
-                        <h4>CEO and Co-owner</h4>
-                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Dolorum corporis harum iste! Sint ullam ad id officia, 
-                            qui vel pariatur cupiditate repellendus sit in, debitis 
-                            omnis voluptatibus, dicta animi dolore?
-                        </p>
-                    </section> 
-                    <!-- Closing Card -->
+                    <div class="cardss">
+                        <section class="team card-1">
+                            <div class="team-1">
+                                <img src="./images/john.jpg" alt="john doe" id="john">
+                            </div>
+                            <div id="ceo">
+                                <h3>John Doe</h3>
+                                <h4>CEO and Co-owner</h4>
+                                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Dolorum corporis harum iste! Sint ullam ad id officia, 
+                                    qui vel pariatur cupiditate repellendus sit in, debitis 
+                                    omnis voluptatibus, dicta animi dolore?
+                                </p>
+                            </div>
+                        </section> 
+                        <!-- Closing Card -->
 
-                    <section class="team-card">
-                        <img src="./images/bob.jpg" alt="john doe">
-                        <h3>Bob Rite</h3>
-                        <h4>CFO and Co-owner</h4>
-                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            Dolorum corporis harum iste! Sint ullam ad id officia, 
-                            qui vel pariatur cupiditate repellendus sit in, debitis 
-                            omnis voluptatibus, dicta animi dolore?
-                        </p>
-                    </section>
-                    <!-- Closing Card -->
+                        <section class="team card-2">
+                            <div class="team-2">
+                                <img src="./images/bob.jpg" alt="john doe" id="bob">
+                            </div>
+                            <div id="cfo">
+                                <h3>Bob Rite</h3>
+                                <h4>CFO and Co-owner</h4>
+                                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                    Dolorum corporis harum iste! Sint ullam ad id officia, 
+                                    qui vel pariatur cupiditate repellendus sit in, debitis 
+                                    omnis voluptatibus, dicta animi dolore?
+                                </p>
+                            </div>
+                        </section>
+                        <!-- Closing Card -->
+                    </div>
                 </div>
                 <!-- Closing Card div -->
             </section>
             
             <!-- Starts Contact Section -->
+            
+                <h2 id="contact">Contact Us</h2>
             <section class="contact-us">
-                <h2>Contact Us</h2>
-                <!-- Adds Contact Form -->
-                <form action="thanks.html" method="post">
-                    <div>
-                        <label for="fullname">Full Name</label>
-                        <input type="text" id="fullname" name="fullname">
+                <!-- Adds Contact Form -->   
+                    <div class="message">
+                        <h3>Send us a message</h3>
+                        <form action="thanks.html" method="post" class="form">
+                            <div>
+                                <label for="fullname">Full Name</label>
+                                <input type="text" id="fullname" name="fullname">
+                            </div>
+                            <div>
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email">
+                            </div>
+                            <div>
+                                <label for="message">Message</label>
+                                <textarea name="message" id="message"></textarea>
+                            </div>
+
+                                <button type="submit">Send</button>
+                        </form>
                     </div>
-                    <div>
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email">
-                    </div>
-                    <div>
-                        <label for="message">Message</label>
-                        <textarea name="message" id="message"></textarea>
-                    </div>
-                </form>
-                    <!-- Adds Hours of operation table -->
-                    <div class="table-hours">
-                        <table>
-                            <caption>Hours of Operation</caption>
-                            <thead>
-                                <tr>
-                                    <th>Day</th>
-                                    <th>Hours</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>Monday - Friday</td>
-                                    <td>9 AM - 6 PM</td>
-                                </tr>
-                                <tr>
-                                    <td>Saturday - Sunday</td>
-                                    <td>Closed</td>
-                                </tr>
-                            </tbody>
-                        </table>   
-                    </div>
+                        <!-- Adds Hours of operation table -->
+                        <div class="table-hours">
+                            <table>
+                                <h3>Hours of Operation</h3>
+                            <div class="table">
+                                <thead>
+                                    <tr>
+                                        <th class="c-1">Day</th>
+                                        <th>Hours</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="c-1">Monday - Friday</td>
+                                        <td >9 AM - 6 PM</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="c-1">Saturday - Sunday</td>
+                                        <td>Closed</td>
+                                    </tr>
+                                </tbody>
+                            </div>
+                            </table>   
+                        </div>
+                    </div> 
 
                     <div class="location">
                         <h3>Location</h3>
@@ -215,14 +272,20 @@
                             width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" 
                             referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
-                
-                    <!-- Site Footer -->
-                    <footer>
-                        &copy;Copyright Three Star Media, 2020
-                        <span>All images are taken from <a href="#unsplash">Unsplash</a></span>
-                    </footer>
 
             </section>
+
+                                <!-- Site Footer -->
+                                <footer class="footer">
+                                    <p class="copy">&copy;Copyright Three Star Media, 2020</p>
+                                    
+                                    <ul>
+                                        <li class="footer-li">
+                                            <span>All images are taken from <a href="#unsplash">Unsplash</a></span>
+                                        </li>
+                                    </ul>
+                                    
+                                </footer>
         </main>
         <!-- Closes Main Content -->
     </div>
